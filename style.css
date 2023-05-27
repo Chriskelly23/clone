@@ -1,7 +1,42 @@
-.m1{
+body{
+    font-family: "Teko SemiBold",sans-serif;
+}
+
+.m1 {
     color: brown;
 }
-.top{
-    position: row;
-    color: darkred}
-    
+
+.center {
+    width: 50%;
+    margin: auto;
+}
+li {
+    float:right;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 600px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    min-height:30px
+}
+
+/* to place a hover effect add a rule here */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
