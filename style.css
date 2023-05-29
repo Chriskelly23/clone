@@ -1,9 +1,12 @@
 body{
+    background-color: black;
     font-family: "Teko SemiBold",sans-serif;
 }
 
 .m1 {
-    color: brown;
+    font-size: 50px;
+    text-align: center;
+    color: white;
 }
 
 .center {
@@ -21,6 +24,17 @@ ul {
     background-color: #f1f1f1;
 }
 
+
+  
+  /* Clear floats after image containers */
+.row {
+    display: flex;
+}
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
 li a {
     display: block;
     color: white;
@@ -29,7 +43,6 @@ li a {
     text-decoration: none;
     min-height:30px
 }
-
 /* to place a hover effect add a rule here */
 li a:hover {
     background-color: #555;
@@ -40,3 +53,4 @@ li a:hover {
     background-color: #04AA6D;
     color: white;
 }
+
